@@ -1,0 +1,118 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'de.undercouch.download' version '3.4.0'
+    id "org.sonarqube" version "4.3.1.3277"
+
+
+}
+
+android {
+    namespace 'com.tensorflow.objectscanner'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.tensorflow.objectscanner"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        customDebugType {
+            debuggable true
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sonar {
+        properties {
+            property "sonar.projectKey", "syn-prit_obejctdetection"
+            property "sonar.organization", "syn-prit"
+            property "sonar.host.url", "https://sonarcloud.io"
+        }
+    }
+
+//    androidResources {
+//        noCompress 'tflite'
+//    }
+
+}
+
+// import DownloadModels task
+project.ext.ASSET_DIR = projectDir.toString() + '/src/main/assets'
+project.ext.TEST_ASSETS_DIR = projectDir.toString() + '/src/androidTest/assets'
+
+
+    dependencies {
+
+        implementation 'androidx.core:core-ktx:1.9.0'
+        implementation 'androidx.appcompat:appcompat:1.6.1'
+        implementation 'com.google.android.material:material:1.8.0'
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+        implementation 'androidx.navigation:navigation-fragment:2.7.2'
+        testImplementation 'junit:junit:4.13.2'
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+        implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
+
+        implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+
+
+        // CameraX core library
+        def camerax_version = '1.1.0-beta03'
+        implementation "androidx.camera:camera-core:$camerax_version"
+
+        // CameraX Camera2 extensions
+        implementation "androidx.camera:camera-camera2:$camerax_version"
+
+        // CameraX Lifecycle library
+        implementation "androidx.camera:camera-lifecycle:$camerax_version"
+
+        // CameraX View class
+        implementation "androidx.camera:camera-view:$camerax_version"
+
+        implementation 'androidx.window:window:1.0.0-alpha09'
+
+
+        // Navigation library
+        def nav_version = "2.3.5"
+        implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+        implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+
+        implementation "androidx.navigation:navigation-fragment:2.3.5"
+        implementation "androidx.navigation:navigation-ui:2.3.5"
+
+
+        //tensorflow
+        implementation 'org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2'
+        implementation 'com.google.android.gms:play-services-tflite-gpu:16.0.0'
+
+
+        dependencies {
+            implementation 'com.karumi:dexter:6.2.3'
+        }
+
+    }
+

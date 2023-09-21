@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tensorflow.objectscanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:5:5-60
+11-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:5:19-57
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:7:5-65
+13-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:9:5-77
+15-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:10:22-76
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.tensorflow.objectscanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.tensorflow.objectscanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26
+27    <application
+27-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:12:5-33:19
+28        android:allowBackup="true"
+28-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\PRIT\.gradle\caches\transforms-3\f4810205cc6c55fcb3e36d2b43d73d81\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:15:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:16:9-54
+34        android:hardwareAccelerated="true"
+34-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:14:9-43
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:17:9-43
+36        android:label="@string/app_name"
+36-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:18:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:19:9-54
+38        android:supportsRtl="true"
+38-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:20:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Objectscanner" >
+40-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:21:9-51
+41        <activity
+41-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:23:9-32:20
+42            android:name="com.tensorflow.objectscanner.activitys.MainActivity"
+42-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:24:13-51
+43            android:exported="true"
+43-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:26:13-36
+44            android:screenOrientation="portrait" >
+44-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:25:13-49
+45            <intent-filter>
+45-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:27:13-31:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:28:17-69
+46-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:30:17-77
+48-->D:\Synodica-workspace\objectscanner\app\src\main\AndroidManifest.xml:30:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[com.karumi:dexter:6.2.3] C:\Users\PRIT\.gradle\caches\transforms-3\b00c4c1c2a4978ec5fe5868e7ff52df8\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+52            android:name="com.karumi.dexter.DexterActivity"
+52-->[com.karumi:dexter:6.2.3] C:\Users\PRIT\.gradle\caches\transforms-3\b00c4c1c2a4978ec5fe5868e7ff52df8\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+53            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+53-->[com.karumi:dexter:6.2.3] C:\Users\PRIT\.gradle\caches\transforms-3\b00c4c1c2a4978ec5fe5868e7ff52df8\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+54
+55        <service
+55-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:9:9-21:19
+56            android:name="com.google.android.gms.metadata.ModuleDependencies"
+56-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:10:13-78
+57            android:enabled="false"
+57-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:11:13-36
+58            android:exported="false" >
+58-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:12:13-37
+59            <intent-filter>
+59-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:14:13-16:29
+60                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+60-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:15:17-94
+60-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:15:25-91
+61            </intent-filter>
+62
+63            <meta-data
+63-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:18:13-20:36
+64                android:name="tflite_gpu_dynamite:222612000:required"
+64-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:19:17-70
+65                android:value="" />
+65-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\bdb65be14bc955bba3d7c44dfa718479\transformed\play-services-tflite-gpu-16.0.0\AndroidManifest.xml:20:17-33
+66            <meta-data
+66-->[com.google.android.gms:play-services-tflite-impl:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\a650fcecbca05cfcf5ae31429a359172\transformed\play-services-tflite-impl-16.0.0\AndroidManifest.xml:18:13-20:36
+67                android:name="tflite_dynamite:3:required"
+67-->[com.google.android.gms:play-services-tflite-impl:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\a650fcecbca05cfcf5ae31429a359172\transformed\play-services-tflite-impl-16.0.0\AndroidManifest.xml:19:17-58
+68                android:value="" />
+68-->[com.google.android.gms:play-services-tflite-impl:16.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\a650fcecbca05cfcf5ae31429a359172\transformed\play-services-tflite-impl-16.0.0\AndroidManifest.xml:20:17-33
+69        </service>
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\daf01fc0fb47c6cdec116086f0e0d7ea\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\daf01fc0fb47c6cdec116086f0e0d7ea\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\daf01fc0fb47c6cdec116086f0e0d7ea\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\daf01fc0fb47c6cdec116086f0e0d7ea\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\df10d4b88027018df9a1ea05c24f67e1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\df10d4b88027018df9a1ea05c24f67e1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PRIT\.gradle\caches\transforms-3\df10d4b88027018df9a1ea05c24f67e1\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+79
+80        <service
+80-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+81            android:name="androidx.camera.core.impl.MetadataHolderService"
+81-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+82            android:enabled="false"
+82-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+83            android:exported="false" >
+83-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+84            <meta-data
+84-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+85                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+85-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+86                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+86-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\PRIT\.gradle\caches\transforms-3\1f64a454d3f30327c5b27f49787d6643\transformed\camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+87        </service>
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.tensorflow.objectscanner.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PRIT\.gradle\caches\transforms-3\588570554a94bd8b85f8cb41c807408c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PRIT\.gradle\caches\transforms-3\0dd9e6f0e44d5b3836ec15b044b8d136\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PRIT\.gradle\caches\transforms-3\0dd9e6f0e44d5b3836ec15b044b8d136\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PRIT\.gradle\caches\transforms-3\0dd9e6f0e44d5b3836ec15b044b8d136\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+102        </provider>
+103
+104        <uses-library
+104-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+107        <uses-library
+107-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0] C:\Users\PRIT\.gradle\caches\transforms-3\b9aea7290d61d43864ad14b32957359b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PRIT\.gradle\caches\transforms-3\7cf1bba25d5e8eb4e39a1d5182ee067b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

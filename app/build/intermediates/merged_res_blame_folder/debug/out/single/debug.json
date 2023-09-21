@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_ic_minus.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/ic_minus.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_logo.jpg.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/logo.jpg"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_ic_plus.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_icn_chevron_up.png.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/icn_chevron_up.png"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/layout_info_bottom_sheet.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/layout/info_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/layout_fragment_camera.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/navigation_nav_graph.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tensorflow.objectscanner.app-merged_res-54:/drawable_tfl_logo.png.flat",
+        "source": "com.tensorflow.objectscanner.app-main-56:/drawable/tfl_logo.png"
+    }
+]
