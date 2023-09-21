@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf322a1f-6e42-4c10-9b86-337914aa604d" name="Changes" comment="Object Get success fully working on clearview after object scaning">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bf322a1f-6e42-4c10-9b86-337914aa604d" name="Changes" comment="Object Get success fully working on clearview after object scaning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
