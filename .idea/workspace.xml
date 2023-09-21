@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf322a1f-6e42-4c10-9b86-337914aa604d" name="Changes" comment="Object Get success fully working on clearview after object scaning" />
+    <list default="true" id="bf322a1f-6e42-4c10-9b86-337914aa604d" name="Changes" comment="Object Get success fully working on clearview after object scaning">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
     "android-custom-viewC:/Users/PRIT/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED": "View",
     "android-custom-viewD:/Synodica-workspace/objectscanner/app/src/main/java/com/tensorflow/objectscanner/helperclasses/OverlayView.java_SELECTED": "OverlayView",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/objectscanner",
+    "last_opened_file_path": "D:/Git-desktop/obejctdetection",
     "project.structure.last.edited": "SDK Location",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",

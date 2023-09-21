@@ -44,13 +44,6 @@ android {
         jvmTarget = '1.8'
     }
 
-    sonar {
-        properties {
-            property "sonar.projectKey", "syn-prit_obejctdetection"
-            property "sonar.organization", "syn-prit"
-            property "sonar.host.url", "https://sonarcloud.io"
-        }
-    }
 
 //    androidResources {
 //        noCompress 'tflite'
@@ -115,4 +108,12 @@ project.ext.TEST_ASSETS_DIR = projectDir.toString() + '/src/androidTest/assets'
         }
 
     }
+sonarqube {
+    properties {
+        property "sonar.projectKey", "syn-prit_obejctdetection"
+        property "sonar.organization", "syn-prit"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
+
 
